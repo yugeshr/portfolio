@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400');
 
 
-.bp2-mobile {
+.portfolio {
   width               : 100%;
-  min-width           : 320px;
+  min-width           : 1440px;
   height              : 100vh;
-  min-height          : 2129px;
+  min-height          : 1024px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
+  background-color    : rgba(0, 0, 0, 1.0);
 }
 a {
   text-decoration     : none;
@@ -28,93 +27,23 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp2-anima-animate-enter {
+.anima-animate-enter {
   opacity             : 0;
   display             : block;
-  -webkit-animation   : bp2-anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp2-anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 5s;
-  -moz-animation-delay: 5s;
-  -o-animation-delay  : 5s;
-  animation-delay     : 5s;
-}
-@-webkit-keyframes bp2-anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@-moz-keyframes bp2-anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@-o-keyframes bp2-anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@keyframes bp2-anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-.bp2-anima-animate-enter1 {
-  opacity             : 0;
-  transform           : translate(-25px, 0);
-  display             : block;
-  -webkit-animation   : bp2-anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp2-anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp2-anima-animate-enter1-frames {
+@-webkit-keyframes anima-animate-enter-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(-25px, 0);
     }
   
     
@@ -122,15 +51,13 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
-@-moz-keyframes bp2-anima-animate-enter1-frames {
+@-moz-keyframes anima-animate-enter-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(-25px, 0);
     }
   
     
@@ -138,15 +65,13 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
-@-o-keyframes bp2-anima-animate-enter1-frames {
+@-o-keyframes anima-animate-enter-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(-25px, 0);
     }
   
     
@@ -154,15 +79,13 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
-@keyframes bp2-anima-animate-enter1-frames {
+@keyframes anima-animate-enter-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(-25px, 0);
     }
   
     
@@ -170,22 +93,21 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
-.bp2-anima-animate-enter2 {
+.anima-animate-enter1 {
   opacity             : 0;
   display             : block;
-  -webkit-animation   : bp2-anima-animate-enter2-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-anima-animate-enter2-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-anima-animate-enter2-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp2-anima-animate-enter2-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp2-anima-animate-enter2-frames {
+@-webkit-keyframes anima-animate-enter1-frames {
   0%
    
   {
@@ -199,7 +121,7 @@ div {
   opacity: 1;
     }
 }
-@-moz-keyframes bp2-anima-animate-enter2-frames {
+@-moz-keyframes anima-animate-enter1-frames {
   0%
    
   {
@@ -213,7 +135,7 @@ div {
   opacity: 1;
     }
 }
-@-o-keyframes bp2-anima-animate-enter2-frames {
+@-o-keyframes anima-animate-enter1-frames {
   0%
    
   {
@@ -227,7 +149,7 @@ div {
   opacity: 1;
     }
 }
-@keyframes bp2-anima-animate-enter2-frames {
+@keyframes anima-animate-enter1-frames {
   0%
    
   {
@@ -241,339 +163,77 @@ div {
   opacity: 1;
     }
 }
-.bp2-anima-animate-enter3 {
-  opacity             : 0;
-  transform           : translate(0, 25px);
-  display             : block;
-  -webkit-animation   : bp2-anima-animate-enter3-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-anima-animate-enter3-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-anima-animate-enter3-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp2-anima-animate-enter3-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
+.portfolio .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 568px;
+  height              : 312px;
+  width               : 480px;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-@-webkit-keyframes bp2-anima-animate-enter3-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes bp2-anima-animate-enter3-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes bp2-anima-animate-enter3-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes bp2-anima-animate-enter3-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.bp2-mobile .bp2-headercopy {
+.portfolio .content .tagline {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 419px;
-  width               : 320px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-headercopy .bp2-rectangle {
-  background-color    : rgba(0, 0, 0, 0.75);
-  top                 : 0px;
-  height              : 419px;
-  width               : 320px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-headercopy .bp2-designerphotographe {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 166px;
-  height              : calc(100.00% - 572px);
-  width               : calc(100.00% - 32px);
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 32.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 38.0px;
-}
-.bp2-mobile .bp2-headercopy .bp2-line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 336px;
-  height              : 5px;
-  width               : 182px;
-  position            : absolute;
-  margin              : 0;
-  left                : 24px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-navbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 320px;
-  position            : fixed;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-navbar .bp2-rectangle {
-  background-color    : rgba(63, 63, 63, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp2-mobile .bp2-navbar .bp2-yugeshralli {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : calc(50.00% - 8px);
-  height              : 17px;
-  width               : 24.69%;
-  position            : absolute;
-  margin              : 0;
-  left                : 5.00%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.bp2-mobile .bp2-navbar .bp2-menu {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 4.69%;
-  top                 : 37.00%;
-  height              : 26.00%;
-  width               : 5.62%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-navbar .bp2-menu .bp2-line3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 23.08%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-navbar .bp2-menu .bp2-line3copy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 38.46%;
-  height              : 23.08%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-navbar .bp2-menu .bp2-line3copy2 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 23.08%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-aboutcopy {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 320px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-aboutcopy-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 419px;
-  align-items         : center;
-  height              : 360px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp2-mobile .bp2-aboutcopy .bp2-rectangle {
-  background-color    : rgba(255, 115, 49, 1.0);
-  top                 : 0px;
-  height              : 360px;
-  width               : 320px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-aboutcopy .bp2-adigitalnomadlos {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
   height              : auto;
-  width               : 218px;
+  width               : 480px;
   position            : absolute;
   margin              : 0;
-  left                : 51px;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Playfair Display", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 58.0px;
+}
+.portfolio .content .abouttext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 258px;
+  height              : auto;
+  width               : 480px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
   font-size           : 16.0px;
   color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.22px;
-  line-height         : 21.0px;
+  text-align          : left;
+  line-height         : 18.0px;
 }
-.bp2-mobile .bp2-footercopy {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 320px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-footercopy-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  align-items         : center;
-  bottom              : 0px;
-  height              : 88px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp2-mobile .bp2-footercopy .bp2-rectangle {
-  background-color    : rgba(31, 37, 43, 1.0);
-  top                 : 0px;
-  height              : 88px;
-  width               : 320px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-footercopy .bp2-group2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 32px;
-  height              : 24px;
-  width               : 264px;
-  position            : absolute;
-  margin              : 0;
-  left                : 28px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-footercopy .bp2-group2 .bp2-group3 {
+.portfolio .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 264px;
-  position            : relative;
+  height              : 1024px;
+  width               : 573px;
+  position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 867px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-mobile .bp2-footercopy .bp2-group2 .bp2-group3 .bp2-fill3 {
+.portfolio .socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 944px;
+  height              : 24px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.portfolio .socialicons .dribbble {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -585,7 +245,140 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-mobile .bp2-footercopy .bp2-group2 .bp2-group3 .bp2-fill9 {
+.portfolio .socialicons .dribbble .viewbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.portfolio .socialicons .dribbble .fill9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+
+.portfolio .socialicons .behance {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.portfolio .socialicons .behance .viewbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.portfolio .socialicons .behance .icon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 13px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.portfolio .socialicons .behance .icon .fill17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.portfolio .socialicons .behance .icon .fill19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.portfolio .socialicons .behance .icon .fill21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 1px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.portfolio .socialicons .instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.portfolio .socialicons .instagram .viewbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.portfolio .socialicons .instagram .fill23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.portfolio .socialicons .github {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -597,23 +390,11 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-mobile .bp2-footercopy .bp2-group2 .bp2-group3 .bp2-group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 16px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 144px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-footercopy .bp2-group2 .bp2-group3 .bp2-group .bp2-fill17 {
+.portfolio .socialicons .github .viewbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
-  width               : 12px;
+  height              : 24px;
+  width               : 24px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -621,31 +402,19 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-mobile .bp2-footercopy .bp2-group2 .bp2-group3 .bp2-group .bp2-fill19 {
+.portfolio .socialicons .github .fill34 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 11px;
-  width               : 11px;
+  top                 : 2px;
+  height              : 19px;
+  width               : 19px;
   position            : absolute;
   margin              : 0;
-  left                : 13px;
+  left                : 2px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-mobile .bp2-footercopy .bp2-group2 .bp2-group3 .bp2-group .bp2-fill21 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 2px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-mobile .bp2-footercopy .bp2-group2 .bp2-group3 .bp2-fill23 {
+.portfolio .socialicons .a500px {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -657,93 +426,41 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-mobile .bp2-footercopy .bp2-group2 .bp2-group3 .bp2-fill34 {
+.portfolio .socialicons .a500px .viewbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 23px;
+  height              : 24px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
-  left                : 96px;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-mobile .bp2-footercopy .bp2-group2 .bp2-group3 .bp2-fill83 {
+.portfolio .socialicons .a500px .fill83 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 12px;
-  width               : 24px;
+  top                 : 7px;
+  height              : 10px;
+  width               : 19px;
   position            : absolute;
   margin              : 0;
-  left                : 240px;
+  left                : 3px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-mobile .bp2-rectanglecopy8 {
+.portfolio .logomark {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 801px;
-  height              : 310px;
-  width               : 310px;
+  top                 : 55px;
+  height              : 107px;
+  width               : 145px;
   position            : absolute;
   margin              : 0;
-  left                : 6px;
+  left                : 119px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  transition          : all 0.2s ease-in;
-}
-.bp2-mobile .bp2-rectanglecopy8:hover {
-  transform           : scale(1.1);
-}
-.bp2-mobile .bp2-rectanglecopy9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1089px;
-  height              : 310px;
-  width               : 310px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-in;
-}
-.bp2-mobile .bp2-rectanglecopy9:hover {
-  transform           : scale(1.1);
-}
-.bp2-mobile .bp2-rectanglecopy10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1377px;
-  height              : 310px;
-  width               : 310px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-in;
-}
-.bp2-mobile .bp2-rectanglecopy10:hover {
-  transform           : scale(1.1);
-}
-.bp2-mobile .bp2-rectanglecopy11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1665px;
-  height              : 310px;
-  width               : 310px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-in;
-}
-.bp2-mobile .bp2-rectanglecopy11:hover {
-  transform           : scale(1.1);
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
@@ -823,902 +540,4 @@ div {
   {
       opacity: 1;
     }
-}
-
-
-/* Website Website Website Website Website Website Website */
-
-
-.bp1-portfolio {
-  width               : 100%;
-  min-width           : 1440px;
-  height              : 100vh;
-  min-height          : 1955px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp1-anima-animate-header-text {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : bp1-anima-animate-header-text-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-anima-animate-header-text-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-anima-animate-header-text-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp1-anima-animate-header-text-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -o-animation-delay  : 1s;
-  animation-delay     : 1s;
-}
-@-webkit-keyframes bp1-anima-animate-header-text-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@-moz-keyframes bp1-anima-animate-header-text-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@-o-keyframes bp1-anima-animate-header-text-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@keyframes bp1-anima-animate-header-text-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-.bp1-anima-animate-header-line {
-  opacity             : 0;
-  transform           : translate(-25px, 0);
-  display             : block;
-  -webkit-animation   : bp1-anima-animate-header-line-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-anima-animate-header-line-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-anima-animate-header-line-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp1-anima-animate-header-line-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 1.5s;
-  -moz-animation-delay: 1.5s;
-  -o-animation-delay  : 1.5s;
-  animation-delay     : 1.5s;
-}
-@-webkit-keyframes bp1-anima-animate-header-line-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(-25px, 0);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes bp1-anima-animate-header-line-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(-25px, 0);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes bp1-anima-animate-header-line-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(-25px, 0);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes bp1-anima-animate-header-line-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(-25px, 0);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.bp1-anima-animate-about-text {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : bp1-anima-animate-about-text-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-anima-animate-about-text-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-anima-animate-about-text-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp1-anima-animate-about-text-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -o-animation-delay  : 1s;
-  animation-delay     : 1s;
-}
-@-webkit-keyframes bp1-anima-animate-about-text-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@-moz-keyframes bp1-anima-animate-about-text-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@-o-keyframes bp1-anima-animate-about-text-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@keyframes bp1-anima-animate-about-text-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-.bp1-anima-animate-enter3 {
-  opacity             : 0;
-  transform           : translate(0, 25px);
-  display             : block;
-  -webkit-animation   : bp1-anima-animate-enter3-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-anima-animate-enter3-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-anima-animate-enter3-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp1-anima-animate-enter3-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
-}
-@-webkit-keyframes bp1-anima-animate-enter3-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes bp1-anima-animate-enter3-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes bp1-anima-animate-enter3-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes bp1-anima-animate-enter3-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.bp1-portfolio .bp1-header {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 824px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-header .bp1-rectangle1 {
-  background-color    : rgba(0, 0, 0, 0.75);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-header .bp1-designerphotographe {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 222px;
-  height              : calc(100.00% - 424px);
-  width               : calc(100.00% - 823px);
-  position            : absolute;
-  margin              : 0;
-  left                : 160px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 72.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 75.0px;
-}
-.bp1-portfolio .bp1-header .bp1-line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 541px;
-  height              : 11px;
-  width               : 449px;
-  position            : absolute;
-  margin              : 0;
-  left                : 167px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-about1 {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 1440px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-about1-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 723px;
-  align-items         : center;
-  height              : 460px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-portfolio .bp1-about1 .bp1-rectangle2 {
-  background-color    : rgba(255, 115, 49, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-about1 .bp1-adigitalnomadlos {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 28.15%;
-  height              : 43.70%;
-  width               : 50.00%;
-  position            : absolute;
-  margin              : 0;
-  left                : 25.00%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Playfair Display", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 32.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.44px;
-  line-height         : 43.0px;
-}
-.bp1-portfolio .bp1-footer {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 1440px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-footer-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  align-items         : center;
-  bottom              : 0px;
-  height              : 100px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-portfolio .bp1-footer .bp1-rectangle3 {
-  background-color    : rgba(31, 37, 43, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-footer .bp1-group2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 34.00%;
-  height              : 32.00%;
-  width               : 21.67%;
-  position            : absolute;
-  margin              : 0;
-  left                : 39.17%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-footer .bp1-group2 .bp1-fill3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 10.26%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-footer .bp1-group2 .bp1-fill9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 10.26%;
-  position            : absolute;
-  margin              : 0;
-  left                : 17.95%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-footer .bp1-group2 .bp1-group {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 35.90%;
-  top                 : 17.19%;
-  height              : 65.62%;
-  width               : 10.26%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-footer .bp1-group2 .bp1-group .bp1-fill17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2.38%;
-  height              : 95.24%;
-  width               : 53.12%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-footer .bp1-group2 .bp1-group .bp1-fill19 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  bottom              : 4.76%;
-  height              : 71.43%;
-  width               : 46.88%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-footer .bp1-group2 .bp1-group .bp1-fill21 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 9.38%;
-  top                 : 4.76%;
-  height              : 9.52%;
-  width               : 25.00%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-footer .bp1-group2 .bp1-fill23 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 17.95%;
-  top                 : 0px;
-  height              : 100%;
-  width               : 10.26%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-footer .bp1-group2 .bp1-fill34 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1.56%;
-  height              : 96.88%;
-  width               : 10.26%;
-  position            : absolute;
-  margin              : 0;
-  left                : 35.90%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-footer .bp1-group2 .bp1-fill83 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 25.00%;
-  height              : 50.00%;
-  width               : 10.26%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-navbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 84px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-navbar .bp1-rectangle1 {
-  background-color    : rgba(63, 63, 63, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-navbar .bp1-yugeshralli {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 28.57%;
-  height              : 19px;
-  width               : 6.25%;
-  position            : absolute;
-  margin              : 0;
-  left                : 11.11%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
-}
-.bp1-portfolio .bp1-navbar .bp1-line2 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 24.44%;
-  bottom              : 45.24%;
-  height              : 2.38%;
-  width               : 2.08%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-portfolio .bp1-navbar .bp1-about {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 23.54%;
-  top                 : 28.57%;
-  height              : 19px;
-  width               : 2.92%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
-}
-.bp1-portfolio .bp1-navbar .bp1-portfolio1 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 17.22%;
-  top                 : 28.57%;
-  height              : 19px;
-  width               : 4.10%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
-}
-.bp1-portfolio .bp1-navbar .bp1-contact {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 11.11%;
-  top                 : 28.57%;
-  height              : 19px;
-  width               : 3.89%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
-}
-.bp1-portfolio .bp1-rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1221px;
-  height              : 310px;
-  width               : 310px;
-  position            : absolute;
-  margin              : 0;
-  left                : 134px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-in;
-}
-.bp1-portfolio .bp1-rectangle:hover {
-  transform           : scale(1.1);
-}
-.bp1-portfolio .bp1-rectanglecopy4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1509px;
-  height              : 310px;
-  width               : 310px;
-  position            : absolute;
-  margin              : 0;
-  left                : 134px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-in;
-}
-.bp1-portfolio .bp1-rectanglecopy4:hover {
-  transform           : scale(1.1);
-}
-.bp1-portfolio .bp1-rectanglecopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1221px;
-  height              : 310px;
-  width               : 310px;
-  position            : absolute;
-  margin              : 0;
-  left                : 422px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-in;
-}
-.bp1-portfolio .bp1-rectanglecopy:hover {
-  transform           : scale(1.1);
-}
-.bp1-portfolio .bp1-rectanglecopy5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1509px;
-  height              : 310px;
-  width               : 310px;
-  position            : absolute;
-  margin              : 0;
-  left                : 422px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-in;
-}
-.bp1-portfolio .bp1-rectanglecopy5:hover {
-  transform           : scale(1.1);
-}
-.bp1-portfolio .bp1-rectanglecopy2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1221px;
-  height              : 310px;
-  width               : 310px;
-  position            : absolute;
-  margin              : 0;
-  left                : 710px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-in;
-}
-.bp1-portfolio .bp1-rectanglecopy2:hover {
-  transform           : scale(1.1);
-}
-.bp1-portfolio .bp1-rectanglecopy6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1509px;
-  height              : 310px;
-  width               : 310px;
-  position            : absolute;
-  margin              : 0;
-  left                : 710px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-in;
-}
-.bp1-portfolio .bp1-rectanglecopy6:hover {
-  transform           : scale(1.1);
-}
-.bp1-portfolio .bp1-rectanglecopy3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1221px;
-  height              : 310px;
-  width               : 310px;
-  position            : absolute;
-  margin              : 0;
-  left                : 998px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-in;
-}
-.bp1-portfolio .bp1-rectanglecopy3:hover {
-  transform           : scale(1.1);
-}
-.bp1-portfolio .bp1-rectanglecopy7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1509px;
-  height              : 310px;
-  width               : 310px;
-  position            : absolute;
-  margin              : 0;
-  left                : 998px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-in;
-}
-.bp1-portfolio .bp1-rectanglecopy7:hover {
-  transform           : scale(1.1);
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@media screen and (max-width: 1439px) {
-  .bp2-mobile {
-    display             : block;
-  }
-  .bp1-portfolio {
-    display             : none;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .bp2-mobile {
-    display             : none;
-  }
-  .bp1-portfolio {
-    display             : block;
-  }
 }
