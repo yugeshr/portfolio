@@ -21,7 +21,8 @@ body {
 		}
 		.about-text {
 			top: 30px;
-			width: 340px;
+			height: 80px;
+			width: 272px;
 			color: #FFFFFF;
 			font-family: 'Roboto';
 			font-size: 14px;
