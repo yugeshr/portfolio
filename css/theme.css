@@ -48,25 +48,37 @@ body {
 			.group>img{
 				width: 100%;
 			}
+			.logo>img{
+				width: 120px;
+			}
+			.logo{
+				top: 20px;
+			}
 			
 		}
 		@media (min-width: 768px) {
 			.content {
-				top: 120px;
+				top: 60px;
 				float: left;
 			}
 			.group {
-				top: 0px;
+				top: -120px;
 				width: 100%;
 			}
 			.group>img{
 				width: 100%;
 			}
+			.logo>img{
+				width: 100px;
+			}
+			.logo{
+				top: 10px;
+			}
 		}
 		
 		@media (min-width: 1200px) {
 		.content {
-			top: 368px;
+			top: 250px;
 			height: 312px;
 			width: 480px;
 			float: left;
@@ -93,6 +105,7 @@ body {
 			float: left;
 		}
 		.group {
+			top: -120px;
 			height: 1024px;
 			width: 100%;
 		}
@@ -107,6 +120,12 @@ body {
 			}
 			.socialicons >span>a{
 				color: white;
+			}
+			.logo>img{
+				width: 120px;
+			}
+			.logo{
+				top: 40px;
 			}
 
 		}
